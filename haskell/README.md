@@ -1,0 +1,1 @@
+`HasBiblioLog` é um sistema de gerenciamento de biblioteca escolar desenvolvido em Haskell.
