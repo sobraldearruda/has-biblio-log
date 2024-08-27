@@ -1,1 +1,1 @@
-# has-biblio-log
+`HasBiblioLog` é um sistema de gerenciamento de biblioteca escolar desenvolvido em Haskell e Prolog.
