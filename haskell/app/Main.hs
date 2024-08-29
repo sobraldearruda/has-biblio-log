@@ -2,11 +2,16 @@
 
 module Main (main) where
 
-import Database (connectDB)
+import Database (connectDB, createTable)
 import Menu (menu)
 
 main :: IO ()
 main = do
     connect <- connectDB
-    putStrLn "\n📚 HasBiblioLog 📚"
+
+    -- Cria a tabela se ainda não existir
+    createTables connect
+
+    --putStrLn "\n📚 HasBiblioLog 📚"
+    putStrLn "\n HasBiblioLog "
     menu connect
